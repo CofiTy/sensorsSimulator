@@ -9,7 +9,7 @@ RMFLAGS=-f
 EXE=sensorsSimulator
 LIBS=-lpthread -lrt
 EFFACE=clean
-OBJ=
+OBJ=$(BUILDDIR)network.o
 
 $(EXE) : $(OBJ) $(BUILDDIR)main.o
 		$(EDL) $(LDFLAGS) -o $(EXE) $(OBJ) $(LIBS) $(BUILDDIR)main.o

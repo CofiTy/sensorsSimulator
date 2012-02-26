@@ -5,7 +5,7 @@
 #include <string.h>
 #include <errno.h>
 
-#include "netowork.h"
+#include "network.h"
 
 #define MAX_EVENTS 10
 
